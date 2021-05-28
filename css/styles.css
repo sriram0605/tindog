@@ -1,0 +1,156 @@
+body ,h3{
+  font-family: 'Montserrat-Regular 400', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 3rem;
+  color: black;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 1.5rem;
+  color: grey;
+}
+.big{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.testimonial-text{
+  color: white;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Montserrat-Regular 400', sans-serif;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#feature {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 15%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding:3%;
+}
+@media (max-width:1080px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+#cta{
+  background-color:  #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+.ctaa{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.iii{
+  margin: 20px 10px;
+}
